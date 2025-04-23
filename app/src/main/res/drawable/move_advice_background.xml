@@ -1,0 +1,18 @@
+<!-- res/drawable/move_advice_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- İsteğe göre köşeleri yuvarlatın -->
+    <corners android:radius="8dp" />
+    <!-- İç dolgu rengi -->
+    <solid android:color="#AAFFFFFF"/> <!-- yarı saydam beyaz -->
+    <!-- Kenarlık (isteğe bağlı) -->
+    <stroke
+        android:width="1dp"
+        android:color="#80FFFFFF"/>
+    <!-- Dış boşluk (padding) -->
+    <padding
+        android:left="8dp"
+        android:top="8dp"
+        android:right="8dp"
+        android:bottom="8dp"/>
+</shape>

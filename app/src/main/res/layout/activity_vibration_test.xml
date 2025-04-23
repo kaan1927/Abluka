@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/vibration_test_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Durum metni -->
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vibration Test Status"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Sonuç metni -->
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        app:layout_constraintTop_toBottomOf="@id/status_text"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Vibration test için düğmeler -->
+    <Button
+        android:id="@+id/simple_vibration_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Vibration"
+        app:layout_constraintTop_toBottomOf="@id/result_text"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/pattern_vibration_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pattern Vibration"
+        app:layout_constraintTop_toBottomOf="@id/simple_vibration_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/amplitude_vibration_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amplitude Vibration"
+        app:layout_constraintTop_toBottomOf="@id/pattern_vibration_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/game_move_vibration_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game Move Vibration"
+        app:layout_constraintTop_toBottomOf="@id/amplitude_vibration_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/game_end_vibration_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game End Vibration"
+        app:layout_constraintTop_toBottomOf="@id/game_move_vibration_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/cancel_vibration_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel Vibration"
+        app:layout_constraintTop_toBottomOf="@id/game_end_vibration_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

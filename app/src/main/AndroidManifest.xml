@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abluka">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Abluka">
+
+        <!-- Google Mobile Ads App ID -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4263828142993676~3871314866"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.HomeActivity" />
+        <activity android:name=".activities.GameActivity" />
+        <activity android:name=".activities.SettingsActivity" />
+        <activity android:name=".activities.StatsActivity" />
+        <activity android:name=".activities.ReplayActivity" />
+        <activity android:name=".activities.ReplayDetailActivity" />
+        <activity android:name=".activities.EndActivity" />
+        <activity android:name=".activities.VibrationTestActivity" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/stats_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Yüklenme göstergesi -->
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- İstatistik içerik paneli -->
+    <LinearLayout
+        android:id="@+id/stats_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/loading_indicator"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:padding="16dp">
+
+        <!-- Genel istatistik metinleri -->
+        <TextView
+            android:id="@+id/total_games_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Games: 0"/>
+
+        <TextView
+            android:id="@+id/avg_moves_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Average Moves: 0"/>
+
+        <TextView
+            android:id="@+id/vs_ai_games_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VS AI Games: 0"/>
+
+        <TextView
+            android:id="@+id/two_player_games_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Two Player Games: 0"/>
+
+        <TextView
+            android:id="@+id/black_wins_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Black Wins:"/>
+
+        <TextView
+            android:id="@+id/white_wins_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="White Wins:"/>
+
+        <TextView
+            android:id="@+id/black_win_rate_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Black Win Rate:"/>
+
+        <TextView
+            android:id="@+id/white_win_rate_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="White Win Rate:"/>
+
+        <!-- Basit progress bar'lar -->
+        <View
+            android:id="@+id/black_progress_bar"
+            android:layout_width="0dp"
+            android:layout_height="8dp"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_marginTop="8dp" />
+
+        <View
+            android:id="@+id/white_progress_bar"
+            android:layout_width="0dp"
+            android:layout_height="8dp"
+            android:background="@android:color/holo_green_dark"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+
+    <!-- Son oyunların listeleneceği RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recent_games_recycler_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/stats_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"/>
+
+    <!-- "Tümünü Gör" butonu -->
+    <Button
+        android:id="@+id/view_all_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tümünü Gör"
+        app:layout_constraintTop_toBottomOf="@id/recent_games_recycler_view"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <!-- Yenileme için FloatingActionButton -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/refresh_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_rotate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"/>
+
+    <!-- Eğer maç yoksa gösterilecek mesaj -->
+    <TextView
+        android:id="@+id/no_games_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maç bulunamadı"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="16dp"
+        android:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

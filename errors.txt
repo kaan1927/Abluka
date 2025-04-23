@@ -1,0 +1,903 @@
+Executing tasks: [:app:assembleDebug] in project C:\Users\demir\AndroidStudioProjects\Abluka
+
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:packageDebugResources
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths
+> Task :app:parseDebugLocalResources
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
+C:\Users\demir\AndroidStudioProjects\Abluka\app\build\generated\data_binding_base_class_source_out\debug\out\com\example\abluka\databinding\ActivityGameBinding.java:16: error: cannot find symbol
+import com.example.abluka.views.gameBoardView;
+                               ^
+  symbol:   class gameBoardView
+  location: package com.example.abluka.views
+C:\Users\demir\AndroidStudioProjects\Abluka\app\build\generated\data_binding_base_class_source_out\debug\out\com\example\abluka\databinding\ActivityGameBinding.java:29: error: cannot find symbol
+  public final gameBoardView gameBoardView;
+               ^
+  symbol:   class gameBoardView
+  location: class ActivityGameBinding
+C:\Users\demir\AndroidStudioProjects\Abluka\app\build\generated\data_binding_base_class_source_out\debug\out\com\example\abluka\databinding\ActivityGameBinding.java:50: error: cannot find symbol
+      @NonNull gameBoardView gameBoardView, @NonNull ConstraintLayout gameLayout,
+               ^
+  symbol:   class gameBoardView
+  location: class ActivityGameBinding
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\GameActivity.java:141: error: cannot find symbol
+            turnIndicatorText.setBackgroundResource(R.drawable.blue_gradient_background);
+                                                              ^
+  symbol:   variable blue_gradient_background
+  location: class drawable
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\GameActivity.java:144: error: cannot find symbol
+            turnIndicatorText.setBackgroundResource(R.drawable.red_gradient_background);
+                                                              ^
+  symbol:   variable red_gradient_background
+  location: class drawable
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayActivity.java:39: error: cannot find symbol
+        setContentView(R.layout.activity_replay);
+                               ^
+  symbol:   variable activity_replay
+  location: class layout
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayActivity.java:42: error: cannot find symbol
+        ConstraintLayout mainLayout = findViewById(R.id.replay_layout);
+                                                       ^
+  symbol:   variable replay_layout
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayActivity.java:46: error: cannot find symbol
+        replayRecyclerView = findViewById(R.id.replay_recycler_view);
+                                              ^
+  symbol:   variable replay_recycler_view
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayActivity.java:47: error: cannot find symbol
+        emptyStateView = findViewById(R.id.empty_state_view);
+                                          ^
+  symbol:   variable empty_state_view
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayActivity.java:48: error: cannot find symbol
+        blackWinsText = findViewById(R.id.black_wins_text);
+                                         ^
+  symbol:   variable black_wins_text
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayActivity.java:49: error: cannot find symbol
+        whiteWinsText = findViewById(R.id.white_wins_text);
+                                         ^
+  symbol:   variable white_wins_text
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayActivity.java:50: error: cannot find symbol
+        totalMatchesText = findViewById(R.id.total_matches_text);
+                                            ^
+  symbol:   variable total_matches_text
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayActivity.java:56: error: cannot find symbol
+        FloatingActionButton refreshButton = findViewById(R.id.refresh_button);
+                                                              ^
+  symbol:   variable refresh_button
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:48: error: cannot find symbol
+        setContentView(R.layout.activity_replay_detail);
+                               ^
+  symbol:   variable activity_replay_detail
+  location: class layout
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:51: error: cannot find symbol
+        ConstraintLayout mainLayout = findViewById(R.id.replay_detail_layout);
+                                                       ^
+  symbol:   variable replay_detail_layout
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:56: error: cannot find symbol
+        moveCounterText = findViewById(R.id.move_counter_text);
+                                           ^
+  symbol:   variable move_counter_text
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:57: error: cannot find symbol
+        speedText = findViewById(R.id.speed_text);
+                                     ^
+  symbol:   variable speed_text
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:59: error: cannot find symbol
+        prevButton = findViewById(R.id.prev_button);
+                                      ^
+  symbol:   variable prev_button
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:60: error: cannot find symbol
+        playPauseButton = findViewById(R.id.play_pause_button);
+                                           ^
+  symbol:   variable play_pause_button
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:61: error: cannot find symbol
+        nextButton = findViewById(R.id.next_button);
+                                      ^
+  symbol:   variable next_button
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:62: error: cannot find symbol
+        speedButton = findViewById(R.id.speed_button);
+                                       ^
+  symbol:   variable speed_button
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:63: error: cannot find symbol
+        moveDescriptionLayout = findViewById(R.id.move_description_layout);
+                                                 ^
+  symbol:   variable move_description_layout
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:64: error: cannot find symbol
+        moveDescriptionText = findViewById(R.id.move_description_text);
+                                               ^
+  symbol:   variable move_description_text
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:238: error: cannot find symbol
+        playPauseButton.setIcon(isPlaying ? R.drawable.ic_pause : R.drawable.ic_play);
+                       ^
+  symbol:   method setIcon(isPlaying [...]_play)
+  location: variable playPauseButton of type Button
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:238: error: cannot find symbol
+        playPauseButton.setIcon(isPlaying ? R.drawable.ic_pause : R.drawable.ic_play);
+                                                      ^
+  symbol:   variable ic_pause
+  location: class drawable
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:238: error: cannot find symbol
+        playPauseButton.setIcon(isPlaying ? R.drawable.ic_pause : R.drawable.ic_play);
+                                                                            ^
+  symbol:   variable ic_play
+  location: class drawable
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:30: error: cannot find symbol
+        setContentView(R.layout.activity_settings);
+                               ^
+  symbol:   variable activity_settings
+  location: class layout
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:36: error: cannot find symbol
+        ConstraintLayout mainLayout = findViewById(R.id.settings_layout);
+                                                       ^
+  symbol:   variable settings_layout
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:43: error: cannot find symbol
+        RadioGroup difficultyGroup = findViewById(R.id.difficulty_group);
+                                                      ^
+  symbol:   variable difficulty_group
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:54: error: cannot find symbol
+            ((RadioButton) findViewById(R.id.radio_easy)).setChecked(true);
+                                            ^
+  symbol:   variable radio_easy
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:56: error: cannot find symbol
+            ((RadioButton) findViewById(R.id.radio_hard)).setChecked(true);
+                                            ^
+  symbol:   variable radio_hard
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:58: error: cannot find symbol
+            ((RadioButton) findViewById(R.id.radio_medium)).setChecked(true);
+                                            ^
+  symbol:   variable radio_medium
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:62: error: cannot find symbol
+        Switch soundSwitch = findViewById(R.id.sound_switch);
+                                              ^
+  symbol:   variable sound_switch
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:63: error: cannot find symbol
+        Switch vibrationSwitch = findViewById(R.id.vibration_switch);
+                                                  ^
+  symbol:   variable vibration_switch
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:64: error: cannot find symbol
+        Switch hintsSwitch = findViewById(R.id.hints_switch);
+                                              ^
+  symbol:   variable hints_switch
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:83: error: cannot find symbol
+        Button vibrationTestButton = findViewById(R.id.vibration_test_button);
+                                                      ^
+  symbol:   variable vibration_test_button
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:93: error: cannot find symbol
+        Button saveButton = findViewById(R.id.save_button);
+                                             ^
+  symbol:   variable save_button
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:148: error: cannot find symbol
+                    ((RadioButton) findViewById(R.id.radio_medium)).setChecked(true);
+                                                    ^
+  symbol:   variable radio_medium
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:149: error: cannot find symbol
+                    ((Switch) findViewById(R.id.sound_switch)).setChecked(true);
+                                               ^
+  symbol:   variable sound_switch
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:150: error: cannot find symbol
+                    ((Switch) findViewById(R.id.vibration_switch)).setChecked(true);
+                                               ^
+  symbol:   variable vibration_switch
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:151: error: cannot find symbol
+                    ((Switch) findViewById(R.id.hints_switch)).setChecked(true);
+                                               ^
+  symbol:   variable hints_switch
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:42: error: cannot find symbol
+        setContentView(R.layout.activity_stats);
+                               ^
+  symbol:   variable activity_stats
+  location: class layout
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:45: error: cannot find symbol
+        ConstraintLayout mainLayout = findViewById(R.id.stats_layout);
+                                                       ^
+  symbol:   variable stats_layout
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:49: error: cannot find symbol
+        loadingIndicator = findViewById(R.id.loading_indicator);
+                                            ^
+  symbol:   variable loading_indicator
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:50: error: cannot find symbol
+        statsContent = findViewById(R.id.stats_content);
+                                        ^
+  symbol:   variable stats_content
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:51: error: cannot find symbol
+        recentGamesRecyclerView = findViewById(R.id.recent_games_recycler_view);
+                                                   ^
+  symbol:   variable recent_games_recycler_view
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:59: error: cannot find symbol
+        FloatingActionButton refreshButton = findViewById(R.id.refresh_button);
+                                                              ^
+  symbol:   variable refresh_button
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:102: error: cannot find symbol
+        TextView totalGamesText = findViewById(R.id.total_games_value);
+                                                   ^
+  symbol:   variable total_games_value
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:103: error: cannot find symbol
+        TextView avgMovesText = findViewById(R.id.avg_moves_value);
+                                                 ^
+  symbol:   variable avg_moves_value
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:104: error: cannot find symbol
+        TextView vsAIGamesText = findViewById(R.id.vs_ai_games_value);
+                                                  ^
+  symbol:   variable vs_ai_games_value
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:105: error: cannot find symbol
+        TextView twoPlayerGamesText = findViewById(R.id.two_player_games_value);
+                                                       ^
+  symbol:   variable two_player_games_value
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:134: error: cannot find symbol
+        TextView blackWinsText = findViewById(R.id.black_wins_text);
+                                                  ^
+  symbol:   variable black_wins_text
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:135: error: cannot find symbol
+        TextView whiteWinsText = findViewById(R.id.white_wins_text);
+                                                  ^
+  symbol:   variable white_wins_text
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:136: error: cannot find symbol
+        TextView blackWinRateText = findViewById(R.id.black_win_rate_text);
+                                                     ^
+  symbol:   variable black_win_rate_text
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:137: error: cannot find symbol
+        TextView whiteWinRateText = findViewById(R.id.white_win_rate_text);
+                                                     ^
+  symbol:   variable white_win_rate_text
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:138: error: cannot find symbol
+        View blackProgressBar = findViewById(R.id.black_progress_bar);
+                                                 ^
+  symbol:   variable black_progress_bar
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:139: error: cannot find symbol
+        View whiteProgressBar = findViewById(R.id.white_progress_bar);
+                                                 ^
+  symbol:   variable white_progress_bar
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:159: error: cannot find symbol
+            findViewById(R.id.no_games_layout).setVisibility(View.VISIBLE);
+                             ^
+  symbol:   variable no_games_layout
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:162: error: cannot find symbol
+            findViewById(R.id.no_games_layout).setVisibility(View.GONE);
+                             ^
+  symbol:   variable no_games_layout
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:171: error: incompatible types: List<Match> cannot be converted to List<Map<String,Object>>
+            recentGamesAdapter.updateMatches(recentMatches);
+                                             ^
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:175: error: cannot find symbol
+        findViewById(R.id.view_all_button).setOnClickListener(v -> {
+                         ^
+  symbol:   variable view_all_button
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\RecentGamesAdapter.java:43: error: cannot find symbol
+        View view = LayoutInflater.from(context).inflate(R.layout.item_recent_game, parent, false);
+                                                                 ^
+  symbol:   variable item_recent_game
+  location: class layout
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\RecentGamesAdapter.java:66: error: cannot find symbol
+            holder.winnerText.setBackgroundResource(R.drawable.black_winner_background);
+                                                              ^
+  symbol:   variable black_winner_background
+  location: class drawable
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\RecentGamesAdapter.java:68: error: cannot find symbol
+            holder.winnerText.setBackgroundResource(R.drawable.white_winner_background);
+                                                              ^
+  symbol:   variable white_winner_background
+  location: class drawable
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\RecentGamesAdapter.java:94: error: cannot find symbol
+            matchIdText = itemView.findViewById(R.id.match_id_text);
+                                                    ^
+  symbol:   variable match_id_text
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\RecentGamesAdapter.java:95: error: cannot find symbol
+            modeText = itemView.findViewById(R.id.mode_text);
+                                                 ^
+  symbol:   variable mode_text
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\RecentGamesAdapter.java:96: error: cannot find symbol
+            movesText = itemView.findViewById(R.id.moves_text);
+                                                  ^
+  symbol:   variable moves_text
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:28: error: cannot find symbol
+        setContentView(R.layout.activity_vibration_test);
+                               ^
+  symbol:   variable activity_vibration_test
+  location: class layout
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:31: error: cannot find symbol
+        ConstraintLayout mainLayout = findViewById(R.id.vibration_test_layout);
+                                                       ^
+  symbol:   variable vibration_test_layout
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:35: error: cannot find symbol
+        statusText = findViewById(R.id.status_text);
+                                      ^
+  symbol:   variable status_text
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:36: error: cannot find symbol
+        resultText = findViewById(R.id.result_text);
+                                      ^
+  symbol:   variable result_text
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:49: error: cannot find symbol
+        Button simpleVibrationButton = findViewById(R.id.simple_vibration_button);
+                                                        ^
+  symbol:   variable simple_vibration_button
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:50: error: cannot find symbol
+        Button patternVibrationButton = findViewById(R.id.pattern_vibration_button);
+                                                         ^
+  symbol:   variable pattern_vibration_button
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:51: error: cannot find symbol
+        Button amplitudeVibrationButton = findViewById(R.id.amplitude_vibration_button);
+                                                           ^
+  symbol:   variable amplitude_vibration_button
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:52: error: cannot find symbol
+        Button gameMoveVibrationButton = findViewById(R.id.game_move_vibration_button);
+                                                          ^
+  symbol:   variable game_move_vibration_button
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:53: error: cannot find symbol
+        Button gameEndVibrationButton = findViewById(R.id.game_end_vibration_button);
+                                                         ^
+  symbol:   variable game_end_vibration_button
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:54: error: cannot find symbol
+        Button cancelVibrationButton = findViewById(R.id.cancel_vibration_button);
+                                                        ^
+  symbol:   variable cancel_vibration_button
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\ReplayAdapter.java:38: error: cannot find symbol
+        View view = LayoutInflater.from(context).inflate(R.layout.item_replay, parent, false);
+                                                                 ^
+  symbol:   variable item_replay
+  location: class layout
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\ReplayAdapter.java:82: error: cannot find symbol
+            matchIdText = itemView.findViewById(R.id.match_id_text);
+                                                    ^
+  symbol:   variable match_id_text
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\ReplayAdapter.java:83: error: cannot find symbol
+            modeText = itemView.findViewById(R.id.mode_text);
+                                                 ^
+  symbol:   variable mode_text
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\ReplayAdapter.java:84: error: cannot find symbol
+            movesText = itemView.findViewById(R.id.moves_text);
+                                                  ^
+  symbol:   variable moves_text
+  location: class id
+C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\ai\AblukaAI.java:68: error: cannot find symbol
+                List<BoardPosition> emptyPositions = new ArrayList<>();
+                                                         ^
+  symbol:   class ArrayList
+  location: class AblukaAI
+C:\Users\demir\AndroidStudioProjects\Abluka\app\build\generated\data_binding_base_class_source_out\debug\out\com\example\abluka\databinding\ActivityGameBinding.java:99: error: cannot find symbol
+      gameBoardView gameBoardView = ViewBindings.findChildViewById(rootView, id);
+      ^
+  symbol:   class gameBoardView
+  location: class ActivityGameBinding
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+83 errors
+
+> Task :app:compileDebugJavaWithJavac FAILED
+[Incubating] Problems report is available at: file:///C:/Users/demir/AndroidStudioProjects/Abluka/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler output below.
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:171: error: incompatible types: List<Match> cannot be converted to List<Map<String,Object>>
+              recentGamesAdapter.updateMatches(recentMatches);
+                                               ^
+  Note: Some input files use unchecked or unsafe operations.
+  Note: Recompile with -Xlint:unchecked for details.
+  Note: Recompile with -Xlint:deprecation for details.
+  Note: Some input files use or override a deprecated API.
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:238: error: cannot find symbol
+          playPauseButton.setIcon(isPlaying ? R.drawable.ic_pause : R.drawable.ic_play);
+                         ^
+    symbol:   method setIcon(isPlaying [...]_play)
+    location: variable playPauseButton of type Button
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\build\generated\data_binding_base_class_source_out\debug\out\com\example\abluka\databinding\ActivityGameBinding.java:16: error: cannot find symbol
+  import com.example.abluka.views.gameBoardView;
+                                 ^
+    symbol:   class gameBoardView
+    location: package com.example.abluka.views
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\build\generated\data_binding_base_class_source_out\debug\out\com\example\abluka\databinding\ActivityGameBinding.java:29: error: cannot find symbol
+    public final gameBoardView gameBoardView;
+                 ^
+    symbol:   class gameBoardView
+    location: class ActivityGameBinding
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\build\generated\data_binding_base_class_source_out\debug\out\com\example\abluka\databinding\ActivityGameBinding.java:50: error: cannot find symbol
+        @NonNull gameBoardView gameBoardView, @NonNull ConstraintLayout gameLayout,
+                 ^
+    symbol:   class gameBoardView
+    location: class ActivityGameBinding
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\GameActivity.java:141: error: cannot find symbol
+              turnIndicatorText.setBackgroundResource(R.drawable.blue_gradient_background);
+                                                                ^
+    symbol:   variable blue_gradient_background
+    location: class drawable
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\GameActivity.java:144: error: cannot find symbol
+              turnIndicatorText.setBackgroundResource(R.drawable.red_gradient_background);
+                                                                ^
+    symbol:   variable red_gradient_background
+    location: class drawable
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayActivity.java:39: error: cannot find symbol
+          setContentView(R.layout.activity_replay);
+                                 ^
+    symbol:   variable activity_replay
+    location: class layout
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayActivity.java:42: error: cannot find symbol
+          ConstraintLayout mainLayout = findViewById(R.id.replay_layout);
+                                                         ^
+    symbol:   variable replay_layout
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayActivity.java:46: error: cannot find symbol
+          replayRecyclerView = findViewById(R.id.replay_recycler_view);
+                                                ^
+    symbol:   variable replay_recycler_view
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayActivity.java:47: error: cannot find symbol
+          emptyStateView = findViewById(R.id.empty_state_view);
+                                            ^
+    symbol:   variable empty_state_view
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayActivity.java:48: error: cannot find symbol
+          blackWinsText = findViewById(R.id.black_wins_text);
+                                           ^
+    symbol:   variable black_wins_text
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayActivity.java:49: error: cannot find symbol
+          whiteWinsText = findViewById(R.id.white_wins_text);
+                                           ^
+    symbol:   variable white_wins_text
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayActivity.java:50: error: cannot find symbol
+          totalMatchesText = findViewById(R.id.total_matches_text);
+                                              ^
+    symbol:   variable total_matches_text
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayActivity.java:56: error: cannot find symbol
+          FloatingActionButton refreshButton = findViewById(R.id.refresh_button);
+                                                                ^
+    symbol:   variable refresh_button
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:48: error: cannot find symbol
+          setContentView(R.layout.activity_replay_detail);
+                                 ^
+    symbol:   variable activity_replay_detail
+    location: class layout
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:51: error: cannot find symbol
+          ConstraintLayout mainLayout = findViewById(R.id.replay_detail_layout);
+                                                         ^
+    symbol:   variable replay_detail_layout
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:56: error: cannot find symbol
+          moveCounterText = findViewById(R.id.move_counter_text);
+                                             ^
+    symbol:   variable move_counter_text
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:57: error: cannot find symbol
+          speedText = findViewById(R.id.speed_text);
+                                       ^
+    symbol:   variable speed_text
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:59: error: cannot find symbol
+          prevButton = findViewById(R.id.prev_button);
+                                        ^
+    symbol:   variable prev_button
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:60: error: cannot find symbol
+          playPauseButton = findViewById(R.id.play_pause_button);
+                                             ^
+    symbol:   variable play_pause_button
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:61: error: cannot find symbol
+          nextButton = findViewById(R.id.next_button);
+                                        ^
+    symbol:   variable next_button
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:62: error: cannot find symbol
+          speedButton = findViewById(R.id.speed_button);
+                                         ^
+    symbol:   variable speed_button
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:63: error: cannot find symbol
+          moveDescriptionLayout = findViewById(R.id.move_description_layout);
+                                                   ^
+    symbol:   variable move_description_layout
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:64: error: cannot find symbol
+          moveDescriptionText = findViewById(R.id.move_description_text);
+                                                 ^
+    symbol:   variable move_description_text
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:238: error: cannot find symbol
+          playPauseButton.setIcon(isPlaying ? R.drawable.ic_pause : R.drawable.ic_play);
+                                                        ^
+    symbol:   variable ic_pause
+    location: class drawable
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\ReplayDetailActivity.java:238: error: cannot find symbol
+          playPauseButton.setIcon(isPlaying ? R.drawable.ic_pause : R.drawable.ic_play);
+                                                                              ^
+    symbol:   variable ic_play
+    location: class drawable
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:30: error: cannot find symbol
+          setContentView(R.layout.activity_settings);
+                                 ^
+    symbol:   variable activity_settings
+    location: class layout
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:36: error: cannot find symbol
+          ConstraintLayout mainLayout = findViewById(R.id.settings_layout);
+                                                         ^
+    symbol:   variable settings_layout
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:43: error: cannot find symbol
+          RadioGroup difficultyGroup = findViewById(R.id.difficulty_group);
+                                                        ^
+    symbol:   variable difficulty_group
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:54: error: cannot find symbol
+              ((RadioButton) findViewById(R.id.radio_easy)).setChecked(true);
+                                              ^
+    symbol:   variable radio_easy
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:56: error: cannot find symbol
+              ((RadioButton) findViewById(R.id.radio_hard)).setChecked(true);
+                                              ^
+    symbol:   variable radio_hard
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:58: error: cannot find symbol
+              ((RadioButton) findViewById(R.id.radio_medium)).setChecked(true);
+                                              ^
+    symbol:   variable radio_medium
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:62: error: cannot find symbol
+          Switch soundSwitch = findViewById(R.id.sound_switch);
+                                                ^
+    symbol:   variable sound_switch
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:63: error: cannot find symbol
+          Switch vibrationSwitch = findViewById(R.id.vibration_switch);
+                                                    ^
+    symbol:   variable vibration_switch
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:64: error: cannot find symbol
+          Switch hintsSwitch = findViewById(R.id.hints_switch);
+                                                ^
+    symbol:   variable hints_switch
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:83: error: cannot find symbol
+          Button vibrationTestButton = findViewById(R.id.vibration_test_button);
+                                                        ^
+    symbol:   variable vibration_test_button
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:93: error: cannot find symbol
+          Button saveButton = findViewById(R.id.save_button);
+                                               ^
+    symbol:   variable save_button
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:148: error: cannot find symbol
+                      ((RadioButton) findViewById(R.id.radio_medium)).setChecked(true);
+                                                      ^
+    symbol:   variable radio_medium
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:149: error: cannot find symbol
+                      ((Switch) findViewById(R.id.sound_switch)).setChecked(true);
+                                                 ^
+    symbol:   variable sound_switch
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:150: error: cannot find symbol
+                      ((Switch) findViewById(R.id.vibration_switch)).setChecked(true);
+                                                 ^
+    symbol:   variable vibration_switch
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\SettingsActivity.java:151: error: cannot find symbol
+                      ((Switch) findViewById(R.id.hints_switch)).setChecked(true);
+                                                 ^
+    symbol:   variable hints_switch
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:42: error: cannot find symbol
+          setContentView(R.layout.activity_stats);
+                                 ^
+    symbol:   variable activity_stats
+    location: class layout
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:45: error: cannot find symbol
+          ConstraintLayout mainLayout = findViewById(R.id.stats_layout);
+                                                         ^
+    symbol:   variable stats_layout
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:49: error: cannot find symbol
+          loadingIndicator = findViewById(R.id.loading_indicator);
+                                              ^
+    symbol:   variable loading_indicator
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:50: error: cannot find symbol
+          statsContent = findViewById(R.id.stats_content);
+                                          ^
+    symbol:   variable stats_content
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:51: error: cannot find symbol
+          recentGamesRecyclerView = findViewById(R.id.recent_games_recycler_view);
+                                                     ^
+    symbol:   variable recent_games_recycler_view
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:59: error: cannot find symbol
+          FloatingActionButton refreshButton = findViewById(R.id.refresh_button);
+                                                                ^
+    symbol:   variable refresh_button
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:102: error: cannot find symbol
+          TextView totalGamesText = findViewById(R.id.total_games_value);
+                                                     ^
+    symbol:   variable total_games_value
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:103: error: cannot find symbol
+          TextView avgMovesText = findViewById(R.id.avg_moves_value);
+                                                   ^
+    symbol:   variable avg_moves_value
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:104: error: cannot find symbol
+          TextView vsAIGamesText = findViewById(R.id.vs_ai_games_value);
+                                                    ^
+    symbol:   variable vs_ai_games_value
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:105: error: cannot find symbol
+          TextView twoPlayerGamesText = findViewById(R.id.two_player_games_value);
+                                                         ^
+    symbol:   variable two_player_games_value
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:134: error: cannot find symbol
+          TextView blackWinsText = findViewById(R.id.black_wins_text);
+                                                    ^
+    symbol:   variable black_wins_text
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:135: error: cannot find symbol
+          TextView whiteWinsText = findViewById(R.id.white_wins_text);
+                                                    ^
+    symbol:   variable white_wins_text
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:136: error: cannot find symbol
+          TextView blackWinRateText = findViewById(R.id.black_win_rate_text);
+                                                       ^
+    symbol:   variable black_win_rate_text
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:137: error: cannot find symbol
+          TextView whiteWinRateText = findViewById(R.id.white_win_rate_text);
+                                                       ^
+    symbol:   variable white_win_rate_text
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:138: error: cannot find symbol
+          View blackProgressBar = findViewById(R.id.black_progress_bar);
+                                                   ^
+    symbol:   variable black_progress_bar
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:139: error: cannot find symbol
+          View whiteProgressBar = findViewById(R.id.white_progress_bar);
+                                                   ^
+    symbol:   variable white_progress_bar
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:159: error: cannot find symbol
+              findViewById(R.id.no_games_layout).setVisibility(View.VISIBLE);
+                               ^
+    symbol:   variable no_games_layout
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:162: error: cannot find symbol
+              findViewById(R.id.no_games_layout).setVisibility(View.GONE);
+                               ^
+    symbol:   variable no_games_layout
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\StatsActivity.java:175: error: cannot find symbol
+          findViewById(R.id.view_all_button).setOnClickListener(v -> {
+                           ^
+    symbol:   variable view_all_button
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\RecentGamesAdapter.java:43: error: cannot find symbol
+          View view = LayoutInflater.from(context).inflate(R.layout.item_recent_game, parent, false);
+                                                                   ^
+    symbol:   variable item_recent_game
+    location: class layout
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\RecentGamesAdapter.java:66: error: cannot find symbol
+              holder.winnerText.setBackgroundResource(R.drawable.black_winner_background);
+                                                                ^
+    symbol:   variable black_winner_background
+    location: class drawable
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\RecentGamesAdapter.java:68: error: cannot find symbol
+              holder.winnerText.setBackgroundResource(R.drawable.white_winner_background);
+                                                                ^
+    symbol:   variable white_winner_background
+    location: class drawable
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\RecentGamesAdapter.java:94: error: cannot find symbol
+              matchIdText = itemView.findViewById(R.id.match_id_text);
+                                                      ^
+    symbol:   variable match_id_text
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\RecentGamesAdapter.java:95: error: cannot find symbol
+              modeText = itemView.findViewById(R.id.mode_text);
+                                                   ^
+    symbol:   variable mode_text
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\RecentGamesAdapter.java:96: error: cannot find symbol
+              movesText = itemView.findViewById(R.id.moves_text);
+                                                    ^
+    symbol:   variable moves_text
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:28: error: cannot find symbol
+          setContentView(R.layout.activity_vibration_test);
+                                 ^
+    symbol:   variable activity_vibration_test
+    location: class layout
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:31: error: cannot find symbol
+          ConstraintLayout mainLayout = findViewById(R.id.vibration_test_layout);
+                                                         ^
+    symbol:   variable vibration_test_layout
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:35: error: cannot find symbol
+          statusText = findViewById(R.id.status_text);
+                                        ^
+    symbol:   variable status_text
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:36: error: cannot find symbol
+          resultText = findViewById(R.id.result_text);
+                                        ^
+    symbol:   variable result_text
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:49: error: cannot find symbol
+          Button simpleVibrationButton = findViewById(R.id.simple_vibration_button);
+                                                          ^
+    symbol:   variable simple_vibration_button
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:50: error: cannot find symbol
+          Button patternVibrationButton = findViewById(R.id.pattern_vibration_button);
+                                                           ^
+    symbol:   variable pattern_vibration_button
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:51: error: cannot find symbol
+          Button amplitudeVibrationButton = findViewById(R.id.amplitude_vibration_button);
+                                                             ^
+    symbol:   variable amplitude_vibration_button
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:52: error: cannot find symbol
+          Button gameMoveVibrationButton = findViewById(R.id.game_move_vibration_button);
+                                                            ^
+    symbol:   variable game_move_vibration_button
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:53: error: cannot find symbol
+          Button gameEndVibrationButton = findViewById(R.id.game_end_vibration_button);
+                                                           ^
+    symbol:   variable game_end_vibration_button
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\activities\VibrationTestActivity.java:54: error: cannot find symbol
+          Button cancelVibrationButton = findViewById(R.id.cancel_vibration_button);
+                                                          ^
+    symbol:   variable cancel_vibration_button
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\ReplayAdapter.java:38: error: cannot find symbol
+          View view = LayoutInflater.from(context).inflate(R.layout.item_replay, parent, false);
+                                                                   ^
+    symbol:   variable item_replay
+    location: class layout
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\ReplayAdapter.java:82: error: cannot find symbol
+              matchIdText = itemView.findViewById(R.id.match_id_text);
+                                                      ^
+    symbol:   variable match_id_text
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\ReplayAdapter.java:83: error: cannot find symbol
+              modeText = itemView.findViewById(R.id.mode_text);
+                                                   ^
+    symbol:   variable mode_text
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\adapters\ReplayAdapter.java:84: error: cannot find symbol
+              movesText = itemView.findViewById(R.id.moves_text);
+                                                    ^
+    symbol:   variable moves_text
+    location: class id
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\src\main\java\com\example\abluka\ai\AblukaAI.java:68: error: cannot find symbol
+                  List<BoardPosition> emptyPositions = new ArrayList<>();
+                                                           ^
+    symbol:   class ArrayList
+    location: class AblukaAI
+  C:\Users\demir\AndroidStudioProjects\Abluka\app\build\generated\data_binding_base_class_source_out\debug\out\com\example\abluka\databinding\ActivityGameBinding.java:99: error: cannot find symbol
+        gameBoardView gameBoardView = ViewBindings.findChildViewById(rootView, id);
+        ^
+    symbol:   class gameBoardView
+    location: class ActivityGameBinding
+  Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+  83 errors
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+
+BUILD FAILED in 5s
+29 actionable tasks: 8 executed, 21 up-to-date
+
+The build scan was not published due to a configuration problem.
+
+The Gradle Terms of Use have not been agreed to.
+
+For more information, please see https://gradle.com/help/gradle-plugin-terms-of-use.
+
+Alternatively, if you are using Develocity, specify the server location.
+For more information, please see https://gradle.com/help/gradle-plugin-config.
+

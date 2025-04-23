@@ -1,0 +1,20 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/
+
+# Java derleme dosyaları
+*.class
+/out/
+/build/
+
+# OS dosyaları
+.DS_Store
+Thumbs.db
